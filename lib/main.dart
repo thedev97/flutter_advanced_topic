@@ -18,7 +18,7 @@ class MyApp extends StatelessWidget {
           builder: (context){
             final state = StateInheritWidget.of(context).state;
             return MaterialApp(
-              title: 'Flutter Demo',
+              title: 'Flutter Topic',
               debugShowCheckedModeBanner: false,
               theme: ThemeData(
                 scaffoldBackgroundColor: state.bgColor,
